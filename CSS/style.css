@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-photo{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  outline: 4px solid rgb(9, 86, 195);
+  outline-offset: 2px;
+}
+
+.pet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pets-container{
+  width: 100%;
+}
+.info-column{
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.myAccordBtn{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+.myAccordian{
+  margin: 20px auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+@media(max-width:500px){
+  .pet{
+    display: block;
+  }
+}
+
+.main__heading{
+  margin: 20px;
+  text-align: center;
+}
+
+.subheading{
+  color: #2006a5;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.headline-bar{
+  color:rgb(255, 102, 199);
+}
+
+.fav-food{
+  font-size: 19px;
+  color: #2006a5;
+}
+
+.accordion-body{
+  background-color: #fdf89b;
+}
